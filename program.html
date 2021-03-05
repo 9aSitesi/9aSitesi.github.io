@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="custom.css">
-        <title>9/A | Ders Programı</title>
-</head>
-<script language="JavaScript">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="custom.css" />
+    <title>9/A | Ders Programı</title>
+  </head>
+  <!--<script language="JavaScript">
 
         var password;
         var pass1="hedef2024";
@@ -21,398 +22,580 @@
             window.location="http://9asitesi.github.io";
             }
         
-        </script>
-<body class="bg-gray-800">
+        </script>-->
+  <body class="bg-gray-800">
+    <div class="bg-gray-900 p-2 flex justify-between items-center">
+      <!-- navbar -->
 
+      <div>
+        <!-- navbar left -->
+        <button
+          onclick="window.location.href='index.html'"
+          class="text-gray-100 text-2xl p-1 px-5 rounded-lg hover:bg-gray-800 focus:outline-none focus:bg-gray-700"
+        >
+          9/A Sınıfı
+        </button>
+      </div>
 
+      <div class="">
+        <!-- navbar right -->
 
-        <div class="bg-gray-900 p-2 flex justify-between items-center">
-                <!-- navbar -->
+        <button
+          onclick="window.location.href='index.html'"
+          class="text-gray-100 text-xl hover:bg-gray-800 p-1 px-5 rounded-lg focus:outline-none focus:bg-gray-700"
+        >
+          Ana Sayfa
+        </button>
 
-                <div>
-                        <!-- navbar left -->
-                        <button onclick="window.location.href='index.html'"
-                                class="text-gray-100 text-2xl p-1 px-5 rounded-lg hover:bg-gray-800  focus:outline-none focus:bg-gray-700">9/A
-                                Sınıfı</button>
-                </div>
+        <button
+          onclick="window.location.href='program.html'"
+          class="bg-gray-700 text-gray-100 text-xl hover:bg-gray-800 p-1 px-5 rounded-lg focus:outline-none focus:bg-gray-700"
+        >
+          Ders Programı
+        </button>
 
-                <div class="">
-                        <!-- navbar right -->
+        <button
+          onclick="window.location.href='sss.html'"
+          class="text-gray-100 text-xl hover:bg-gray-800 p-1 px-5 rounded-lg focus:outline-none focus:bg-gray-700"
+        >
+          SSS
+        </button>
+      </div>
+    </div>
+    <!--navbar end-->
+    <p class="sm:hidden text-4xl font-semibold text-white p-16">
+      Şu an sitenin mobil cihazlara tam desteği yok. Lütfen bilgisayardaysan
+      pencereyi büyüt ya da mobil cihazını yan çevirmeyi dene.
+    </p>
 
-                        <button onclick="window.location.href='index.html'"
-                                class="text-gray-100 text-xl hover:bg-gray-800 p-1 px-5 rounded-lg focus:outline-none focus:bg-gray-700 ">
-                                Ana Sayfa
-                        </button>
+    <div class="p-4 flex flex-row align-middle invisible sm:visible">
+      <h1 class="text-white text-xl mt-2">Sınıf ID:</h1>
+      <button
+        class="bg-gray-900 text-white text-xl p-2 rounded-lg hover:bg-gray-700 focus:outline-none focus:bg-gray-700"
+        onclick="window.location.href='https://us05web.zoom.us/j/7851223269?pwd=Tkkza3F5cW53WXNxYlhBSEVIU29Kdz09'"
+      >
+        Sınıftaki Derse Git
+      </button>
+    </div>
+    <div
+      class="container grid grid-cols-9 p-0 max-w-max lg:p-12 mx-auto invisible sm:visible"
+    >
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg lg:text-xl xl:text-2xl break-words flex flex-col items-center border-l-0 border-t-0"
+      >
+        <p class="text-center pt-2">Gün/Saat</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">08:30 / 09:00</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">09:50 / 10:20</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">10:30 / 11:00</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">11:10 / 11:40</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">11:50 / 12:20</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">12:30 / 13:00</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0"
+      >
+        <p class="text-center pt-2">12:15 / 12:45</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0 border-t-0"
+      >
+        <p class="text-center pt-2">13:10 / 13:40</p>
+      </div>
 
-                        <button onclick="window.location.href='program.html'"
-                                class="bg-gray-700 text-gray-100 text-xl hover:bg-gray-800 p-1 px-5 rounded-lg focus:outline-none focus:bg-gray-700">
-                                Ders Programı
-                        </button>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0"
+      >
+        <p class="text-center pt-2">Pazartesi</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Matematik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Matematik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Fizik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4147381113?pwd=d3RpVlA3b25sS2J0eXBQOTBUelhkUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Tarih</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/8357888300?pwd=MForWUxiNlU1QVIwQS9NNXRCYWU2dz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Almanca</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/7398197752?pwd=c2FzKzZuRDRFUk14YUxCVHdsN2U0Zz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+      >
+        <p class="text-center pt-2">Beden</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/8441711883?pwd=aVlvKytXaFlHQmI2MkpjU21VNC90dz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
 
-                        <button onclick="window.location.href='sss.html'"
-                                class="text-gray-100 text-xl hover:bg-gray-800 p-1 px-5 rounded-lg focus:outline-none focus:bg-gray-700">
-                                SSS
-                        </button>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0"
+      >
+        <p class="text-center pt-2">Salı</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Coğrafya</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3111440905?pwd=QkQreWF6M3d4ODQrblh6Uk1SVWNldz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Kimya</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5875524450?pwd=d2c3dDA5TDZxc29mMEt5cU8wVWRLQT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Dikab</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/6212210252?pwd=b01aQ1BaQWVjalZCTmQ5VHZ0eVpMdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Dikab</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/6212210252?pwd=b01aQ1BaQWVjalZCTmQ5VHZ0eVpMdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Biyoloji</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+      >
+        <p class="text-center pt-2">Müzik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
 
-                </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0"
+      >
+        <p class="text-center pt-2">Çarşamba</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Sınıf Ö.</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Sağlık</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Boş Ders</p>
+        <button
+          onclick="window.location.href='dersboş.html';"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Boş Ders</p>
+        <button
+          onclick="window.location.href='dersboş.html';"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+      >
+        <p class="text-center pt-2">Proje</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5154889431?pwd=L1RwMC96TW50WE44ZnU4VERIM0ZDdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
 
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0"
+      >
+        <p class="text-center pt-2">Perşembe</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Fizik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4147381113?pwd=d3RpVlA3b25sS2J0eXBQOTBUelhkUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Matematik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Matematik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Coğrafya</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3111440905?pwd=QkQreWF6M3d4ODQrblh6Uk1SVWNldz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Almanca</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/7398197752?pwd=c2FzKzZuRDRFUk14YUxCVHdsN2U0Zz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+      >
+        <p class="text-center pt-2">Beden</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/8441711883?pwd=aVlvKytXaFlHQmI2MkpjU21VNC90dz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
 
-
-
-        </div>
-        <!--navbar end-->
-        <p class=" sm:hidden text-4xl font-semibold text-white p-16">Şu an sitenin mobil cihazlara tam desteği yok. Lütfen bilgisayardaysan pencereyi
-                büyüt ya da mobil cihazını yan çevirmeyi dene.</p>
-
-        <div class="container grid grid-cols-9  p-0 max-w-max lg:p-12 mx-auto invisible sm:visible">
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg lg:text-xl xl:text-2xl break-words flex flex-col items-center border-l-0 border-t-0">
-                        <p class=" text-center pt-2">Gün/Saat</p>
-
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">08:30 / 09:00</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">09:50 / 10:20</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">10:30 / 11:00</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">11:10 / 11:40</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">11:50 / 12:20</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">12:30 / 13:00</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-t-0">
-                        <p class=" text-center pt-2">12:15 / 12:45</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0 border-t-0">
-                        <p class=" text-center pt-2">13:10 / 13:40</p>
-                </div>
-
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0">
-                        <p class=" text-center pt-2">Pazartesi</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center">
-                        <p class=" text-center pt-2 ">Matematik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2 ">Matematik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Fizik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4147381113?pwd=d3RpVlA3b25sS2J0eXBQOTBUelhkUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Tarih</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/8357888300?pwd=MForWUxiNlU1QVIwQS9NNXRCYWU2dz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Edebiyat</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Edebiyat</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Almanca</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/7398197752?pwd=c2FzKzZuRDRFUk14YUxCVHdsN2U0Zz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0">
-                        <p class=" text-center pt-2">Beden</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/8441711883?pwd=aVlvKytXaFlHQmI2MkpjU21VNC90dz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0">
-                        <p class=" text-center pt-2">Salı</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Coğrafya</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/3111440905?pwd=QkQreWF6M3d4ODQrblh6Uk1SVWNldz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Kimya</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5875524450?pwd=d2c3dDA5TDZxc29mMEt5cU8wVWRLQT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">İngilizce</p> <button
-                                onclick="window.open('https://web.whatsapp.com/', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Dikab</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/6212210252?pwd=b01aQ1BaQWVjalZCTmQ5VHZ0eVpMdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">İngilizce</p> <button
-                                onclick="window.open('https://web.whatsapp.com/', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Dikab</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/6212210252?pwd=b01aQ1BaQWVjalZCTmQ5VHZ0eVpMdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Biyoloji</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0">
-                        <p class=" text-center pt-2">Müzik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0">
-                        <p class=" text-center pt-2">Çarşamba</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Sınıf Ö.</p><button
-                                onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Sağlık</p><button
-                                onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Boş Ders</p><button onclick="window.location.href='dersboş.html';"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Boş Ders</p><button onclick="window.location.href='dersboş.html';"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">İngilizce</p> <button
-                                onclick="window.open('https://web.whatsapp.com/', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">İngilizce</p> <button
-                                onclick="window.open('https://web.whatsapp.com/', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Edebiyat</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0">
-                        <p class=" text-center pt-2">Proje</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5154889431?pwd=L1RwMC96TW50WE44ZnU4VERIM0ZDdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0">
-                        <p class=" text-center pt-2">Perşembe</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">İngilizce</p> <button
-                                onclick="window.open('https://web.whatsapp.com/', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">İngilizce</p> <button
-                                onclick="window.open('https://web.whatsapp.com/', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Fizik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4147381113?pwd=d3RpVlA3b25sS2J0eXBQOTBUelhkUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2 ">Matematik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2 ">Matematik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Coğrafya</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/3111440905?pwd=QkQreWF6M3d4ODQrblh6Uk1SVWNldz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center ">
-                        <p class=" text-center pt-2">Almanca</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/7398197752?pwd=c2FzKzZuRDRFUk14YUxCVHdsN2U0Zz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0">
-                        <p class=" text-center pt-2">Beden</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/8441711883?pwd=aVlvKytXaFlHQmI2MkpjU21VNC90dz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0 border-b-0">
-                        <p class=" text-center pt-2">Cuma</p>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2">Edebiyat</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2">Edebiyat</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2">Kimya</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/5875524450?pwd=d2c3dDA5TDZxc29mMEt5cU8wVWRLQT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2">Tarih</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/8357888300?pwd=MForWUxiNlU1QVIwQS9NNXRCYWU2dz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2">Biyoloji</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2">Müzik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0">
-                        <p class=" text-center pt-2 ">Matematik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                </div>
-                <div
-                        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0 border-r-0">
-                        <p class=" text-center pt-2 ">Matematik</p> <button
-                                onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-                                class=" max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700  focus:outline-none focus:bg-gray-600 ">Derse
-                                Git</button>
-                        <p class=" text-center text-xs pt-0">Cuma günleri: 14:00 / 14:30</p>
-
-                </div>
-
-
-        </div>
-
-
-
-</body>
-
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-l-0 border-b-0"
+      >
+        <p class="text-center pt-2">Cuma</p>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Kimya</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5875524450?pwd=d2c3dDA5TDZxc29mMEt5cU8wVWRLQT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Tarih</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/8357888300?pwd=MForWUxiNlU1QVIwQS9NNXRCYWU2dz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Biyoloji</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Müzik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Matematik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0 border-r-0"
+      >
+        <p class="text-center pt-2">Matematik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+        <p class="text-center text-xs pt-0">Cuma günleri: 14:00 / 14:30</p>
+      </div>
+    </div>
+  </body>
 </html>
