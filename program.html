@@ -11,18 +11,14 @@
     <title>9/A | Ders Programı</title>
   </head>
   <script language="JavaScript">
-
-        var password;
-        var pass1="hedef2024";
-        password=prompt('Şifreyi gir lütfen!');
-        if (password==pass1)
-          alert('Hoşgeldin ( ͡• ͜ʖ ͡• )');
-        else
-           {
-            window.location="http://9asitesi.github.io";
-            }
-        
-        </script>
+    var password;
+    var pass1 = "hedef2024";
+    password = prompt("Şifreyi gir lütfen!");
+    if (password == pass1) alert("Hoşgeldin ( ͡• ͜ʖ ͡• )");
+    else {
+      window.location = "http://9asitesi.github.io";
+    }
+  </script>
   <body class="bg-gray-800">
     <div class="bg-gray-900 p-2 flex justify-between items-center">
       <!-- navbar -->
@@ -132,6 +128,7 @@
         <p class="text-center pt-2">Pazartesi</p>
       </div>
       <div
+        id="mat"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Matematik</p>
@@ -143,6 +140,7 @@
         </button>
       </div>
       <div
+        id="mat"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Matematik</p>
@@ -154,6 +152,7 @@
         </button>
       </div>
       <div
+        id="fiz"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Fizik</p>
@@ -165,39 +164,7 @@
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">Tarih</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/8357888300?pwd=MForWUxiNlU1QVIwQS9NNXRCYWU2dz09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">Edebiyat</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">Edebiyat</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
+        id="alm"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Almanca</p>
@@ -208,12 +175,50 @@
           Derse Git
         </button>
       </div>
+
       <div
+        id="edeb"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        id="edeb"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        id="proje"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
       >
-        <p class="text-center pt-2">Beden</p>
+        <p class="text-center pt-2">Proje</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/8441711883?pwd=aVlvKytXaFlHQmI2MkpjU21VNC90dz09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/5154889431?pwd=L1RwMC96TW50WE44ZnU4VERIM0ZDdz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        id="ing"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">İngilizce</p>
+        <button
+          onclick="window.open('https://web.whatsapp.com/', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
@@ -226,6 +231,7 @@
         <p class="text-center pt-2">Salı</p>
       </div>
       <div
+        id="coğ"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Coğrafya</p>
@@ -237,6 +243,7 @@
         </button>
       </div>
       <div
+        id="kim"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Kimya</p>
@@ -248,6 +255,33 @@
         </button>
       </div>
       <div
+        id="beden"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+      >
+        <p class="text-center pt-2">Beden</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/8441711883?pwd=aVlvKytXaFlHQmI2MkpjU21VNC90dz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+
+      <div
+        id="edeb"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Edebiyat</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+
+      <div
+        id="ing"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">İngilizce</p>
@@ -259,6 +293,7 @@
         </button>
       </div>
       <div
+        id="din"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Dikab</p>
@@ -270,28 +305,7 @@
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">İngilizce</p>
-        <button
-          onclick="window.open('https://web.whatsapp.com/', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">Dikab</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/6212210252?pwd=b01aQ1BaQWVjalZCTmQ5VHZ0eVpMdz09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
+        id="biyo"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Biyoloji</p>
@@ -303,11 +317,12 @@
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+        id="mat"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
       >
-        <p class="text-center pt-2">Müzik</p>
+        <p class="text-center pt-2">Matematik</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
@@ -320,6 +335,7 @@
         <p class="text-center pt-2">Çarşamba</p>
       </div>
       <div
+        id="sınıf"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Sınıf Ö.</p>
@@ -331,6 +347,7 @@
         </button>
       </div>
       <div
+        id="sağlık"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Sağlık</p>
@@ -342,6 +359,7 @@
         </button>
       </div>
       <div
+        id="boş"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Boş Ders</p>
@@ -353,6 +371,7 @@
         </button>
       </div>
       <div
+        id="boş"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Boş Ders</p>
@@ -364,6 +383,7 @@
         </button>
       </div>
       <div
+        id="ing"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">İngilizce</p>
@@ -375,6 +395,7 @@
         </button>
       </div>
       <div
+        id="ing"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">İngilizce</p>
@@ -386,26 +407,29 @@
         </button>
       </div>
       <div
+        id="mat"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
-        <p class="text-center pt-2">Edebiyat</p>
+        <p class="text-center pt-2">Matematik</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/5423091560?pwd=WVhBS1ZJSUxsNGcwMGh0YlFwc05CUT09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+        id="mat"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0 border-r-0"
       >
-        <p class="text-center pt-2">Proje</p>
+        <p class="text-center pt-2">Matematik</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/5154889431?pwd=L1RwMC96TW50WE44ZnU4VERIM0ZDdz09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
         </button>
+        <p class="text-center text-xs pt-0">Cuma günleri: 14:00 / 14:30</p>
       </div>
 
       <div
@@ -414,6 +438,7 @@
         <p class="text-center pt-2">Perşembe</p>
       </div>
       <div
+        id="ing"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">İngilizce</p>
@@ -425,6 +450,7 @@
         </button>
       </div>
       <div
+        id="ing"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">İngilizce</p>
@@ -436,6 +462,7 @@
         </button>
       </div>
       <div
+        id="fiz"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Fizik</p>
@@ -447,6 +474,31 @@
         </button>
       </div>
       <div
+        id="müz"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
+      >
+        <p class="text-center pt-2">Müzik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        id="müz"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+      >
+        <p class="text-center pt-2">Müzik</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        id="mat"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
         <p class="text-center pt-2">Matematik</p>
@@ -458,39 +510,19 @@
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+        id="biyo"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
       >
-        <p class="text-center pt-2">Matematik</p>
+        <p class="text-center pt-2">Biyoloji</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">Coğrafya</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/3111440905?pwd=QkQreWF6M3d4ODQrblh6Uk1SVWNldz09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
-      >
-        <p class="text-center pt-2">Almanca</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/7398197752?pwd=c2FzKzZuRDRFUk14YUxCVHdsN2U0Zz09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
+        id="beden"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-r-0"
       >
         <p class="text-center pt-2">Beden</p>
@@ -508,6 +540,7 @@
         <p class="text-center pt-2">Cuma</p>
       </div>
       <div
+        id="edeb"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
       >
         <p class="text-center pt-2">Edebiyat</p>
@@ -519,6 +552,7 @@
         </button>
       </div>
       <div
+        id="edeb"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
       >
         <p class="text-center pt-2">Edebiyat</p>
@@ -530,6 +564,7 @@
         </button>
       </div>
       <div
+        id="kim"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
       >
         <p class="text-center pt-2">Kimya</p>
@@ -541,6 +576,32 @@
         </button>
       </div>
       <div
+        id="alm"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Almanca</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/7398197752?pwd=c2FzKzZuRDRFUk14YUxCVHdsN2U0Zz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+
+      <div
+        id="coğ"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
+      >
+        <p class="text-center pt-2">Coğrafya</p>
+        <button
+          onclick="window.open('https://us04web.zoom.us/j/3111440905?pwd=QkQreWF6M3d4ODQrblh6Uk1SVWNldz09', '_blank');"
+          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
+        >
+          Derse Git
+        </button>
+      </div>
+      <div
+        id="tarih"
         class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
       >
         <p class="text-center pt-2">Tarih</p>
@@ -551,50 +612,30 @@
           Derse Git
         </button>
       </div>
+
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+        id="tarih"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
-        <p class="text-center pt-2">Biyoloji</p>
+        <p class="text-center pt-2">Tarih</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/3560045569?pwd=MnRPM3JWTnBNY3Z2MDlxcHJRVGIxQT09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/8357888300?pwd=MForWUxiNlU1QVIwQS9NNXRCYWU2dz09', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
         </button>
       </div>
       <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
+        id="din"
+        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center"
       >
-        <p class="text-center pt-2">Müzik</p>
+        <p class="text-center pt-2">Dikab</p>
         <button
-          onclick="window.open('https://us04web.zoom.us/j/74317045419?pwd=NDYwelo1WTlNODFqc0F4Ym9oUW53QT09', '_blank');"
+          onclick="window.open('https://us04web.zoom.us/j/6212210252?pwd=b01aQ1BaQWVjalZCTmQ5VHZ0eVpMdz09', '_blank');"
           class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
         >
           Derse Git
         </button>
-      </div>
-      <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0"
-      >
-        <p class="text-center pt-2">Matematik</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-      </div>
-      <div
-        class="h-24 border border-gray-900 text-gray-100 text-sm md:text-lg xl:text-2xl break-words flex flex-col items-center border-b-0 border-r-0"
-      >
-        <p class="text-center pt-2">Matematik</p>
-        <button
-          onclick="window.open('https://us04web.zoom.us/j/4214664460?pwd=ZUNad0VNYkJYVzNyTUVPVUtHQ3pEdz09', '_blank');"
-          class="max-w-12 lg:w-24 bg-gray-900 p-0.5 mt-1.5 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-gray-700 focus:outline-none focus:bg-gray-600"
-        >
-          Derse Git
-        </button>
-        <p class="text-center text-xs pt-0">Cuma günleri: 14:00 / 14:30</p>
       </div>
     </div>
   </body>
